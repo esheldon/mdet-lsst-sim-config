@@ -40,7 +40,7 @@ gal_kws: null
 # power spectrum PSF
 psf_type: ps
 psf_kws:
-    variation_factor: 10.0
+    variation_factor: 1.0
 
 # psf_type: gauss
 # psf_kws:
