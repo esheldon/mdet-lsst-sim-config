@@ -60,4 +60,4 @@ bad_columns_kws: null
 sat_stars: True
 # sat_stars_kws: null
 sat_stars_kws:
-    density: 10000
+    density: 3
