@@ -1,0 +1,60 @@
+# this version with completely refactored code for sat stars and bleeds
+
+bands: [r, i, z]
+epochs_per_band: 1
+
+# not used for gal_type wldeblend
+noise_per_band: 180.0
+
+shear_scene: True
+
+# arcsec/pixel
+scale: 0.2
+
+# dimensions of coadd
+coadd_dim: 351
+
+# buffer region with no objects
+buff: 50
+
+# edge region, marked EDGE in the mask
+edge_width: 5
+
+# we let the sim choose the size
+se_dim: null
+
+# actually number per square arcmin.
+# not used for gal_type wldeblend
+ngals: 80
+
+grid_gals: False
+
+# exp or wldeblend
+gal_type: exp
+gal_kws: null
+
+# power spectrum PSF
+psf_type: ps
+psf_kws:
+    variation_factor: 1.0
+
+# psf_type: gauss
+# psf_kws:
+#     g1: 0.00
+#     g2: 0.02
+
+wcs_kws:
+        position_angle_range: [0, 360]
+        dither_range: [-0.5, 0.5]
+        scale_frac_std: 0.01
+        shear_std: 0.01
+
+cosmic_rays: True
+cosmic_rays_kws: null
+bad_columns: True
+bad_columns_kws: null
+
+stars: True
+stars_kws: null
+sat_stars: True
+sat_stars_kws: null
