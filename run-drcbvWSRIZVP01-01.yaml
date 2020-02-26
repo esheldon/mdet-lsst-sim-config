@@ -57,7 +57,9 @@ cosmic_rays: True
 cosmic_rays_kws: null
 bad_columns: True
 bad_columns_kws: null
+stars: True
+stars_kws:
+    density: 3
 sat_stars: True
-# sat_stars_kws: null
 sat_stars_kws:
     density: 3
