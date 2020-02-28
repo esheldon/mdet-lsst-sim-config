@@ -60,6 +60,9 @@ cosmic_rays_kws: null
 bad_columns: True
 bad_columns_kws: null
 stars: True
-stars_kws: null
+stars_kws:
+    type: "sample"
+    density: 3
 sat_stars: True
-sat_stars_kws: null
+sat_stars_kws:
+    density: 1
