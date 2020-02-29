@@ -19,9 +19,9 @@ scale: 0.2
 coadd_dim: 351
 
 # buffer region with no objects
-# buff: 50
+buff: 50
 # draw positions from a spherical cap of this opening angle in arcmin
-cap_radius: 1.3
+# cap_radius: 1.3
 
 # edge region, marked EDGE in the mask
 edge_width: 5
