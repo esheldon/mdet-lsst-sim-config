@@ -24,7 +24,7 @@ edge_width: 5
 se_dim: null
 
 # should we draw galaxies?
-galaxies: False
+galaxies: True
 
 # actually number per square arcmin.
 # not used for gal_type wldeblend
@@ -58,7 +58,6 @@ bad_columns: True
 bad_columns_kws: null
 
 saturate: True
-
 # should we draw stars?
 stars: True
 stars_kws:
@@ -66,7 +65,7 @@ stars_kws:
     density:
         min_density: 2
         max_density: 100
-    min_mag: 20
+    min_mag: 17
 
 # should we draw saturation features around bright stars?
 sat_stars: False

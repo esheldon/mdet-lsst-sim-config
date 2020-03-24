@@ -66,7 +66,7 @@ stars_kws:
     density:
         min_density: 2
         max_density: 100
-    min_mag: 20
+    min_mag: 17
 
 # should we draw saturation features around bright stars?
 sat_stars: False

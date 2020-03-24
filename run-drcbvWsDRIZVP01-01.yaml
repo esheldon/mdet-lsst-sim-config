@@ -57,6 +57,7 @@ cosmic_rays_kws: null
 bad_columns: True
 bad_columns_kws: null
 
+saturate: True
 # should we draw stars?
 stars: True
 stars_kws:
