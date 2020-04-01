@@ -1,0 +1,77 @@
+bands: ["r", "i", "z"]
+epochs_per_band: 1
+
+# not used for gal_type wldeblend
+noise_per_band: 180.0
+
+shear_scene: True
+
+# arcsec/pixel
+scale: 0.2
+
+# dimensions of coadd
+coadd_dim: 351
+
+# buffer region with no objects
+buff: 50
+# draw positions from a spherical cap of this opening angle in arcmin
+# cap_radius: 1.3
+
+# edge region, marked EDGE in the mask
+edge_width: 5
+
+# we let the sim choose the size
+se_dim: null
+
+# should we draw galaxies?
+galaxies: True
+
+# actually number per square arcmin.
+# not used for gal_type wldeblend
+ngals: 80
+
+grid_gals: False
+
+# exp or wldeblend
+gal_type: "wldeblend"
+gal_kws: null
+
+# power spectrum PSF
+psf_type: "ps"
+psf_kws:
+    variation_factor: 1.0
+
+# psf_type: gauss
+# psf_kws:
+#     g1: 0.00
+#     g2: 0.02
+
+wcs_kws:
+        position_angle_range: [0, 360]
+        dither_range: [-0.5, 0.5]
+        scale_frac_std: 0.01
+        shear_std: 0.01
+
+cosmic_rays: True
+cosmic_rays_kws: null
+bad_columns: True
+bad_columns_kws: null
+
+saturate: False
+
+# should we draw stars?
+stars: True
+stars_kws:
+    type: "sample"
+    density:
+        min_density: 2
+        max_density: 100
+    min_mag: 17
+
+# expand boxes for bright stars
+bright_strategy: "expand"
+trim_stamps: False
+
+# should we draw saturation features around bright stars?
+sat_stars: False
+sat_stars_kws: null
