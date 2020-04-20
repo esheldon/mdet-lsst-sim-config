@@ -12,8 +12,8 @@ wcs_kws:
   shear_std: 0.01
  
 stars: true
+stars_type: "sample"
 stars_kws:
-  type: "sample"
   density:
     min_density: 2
     max_density: 100
