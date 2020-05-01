@@ -8,7 +8,7 @@ gals_kws:
 
 layout_type: "grid"
 layout_kws:
-    dim: 9
+    dim: 8
 
 wcs_kws:
     dither_range: [-0.5, 0.5]
