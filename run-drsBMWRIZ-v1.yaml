@@ -1,0 +1,29 @@
+# same as v1 but now we are saving the min star mag
+# M means just moffat, psf psf with small variations
+# so we can use 1 epoch/band
+
+epochs_per_band: 1
+
+gals_type: "wldeblend"
+
+gals_kws:
+  make_round: true
+
+wcs_kws:
+  dither_range: [-0.5, 0.5]
+  position_angle_range: [0, 360]
+  scale_frac_std: 0.01
+  shear_std: 0.01
+
+psf_type: "ps"
+psf_kws:
+  variation_factor: 0.001
+ 
+stars: true
+stars_type: "sample"
+stars_kws:
+  density:
+    min_density: 2
+    max_density: 100
+
+star_bleeds: true
