@@ -1,0 +1,17 @@
+bmask_flags: 0
+metacal: 
+    use_noise_image: true
+    psf: "fitgauss"
+
+psf:
+    model: "gauss"
+    lm_pars: {}
+    ntry: 2
+
+weight:
+    fwhm: 1.2
+
+detect:
+    thresh: 10.0
+
+meds: {}
