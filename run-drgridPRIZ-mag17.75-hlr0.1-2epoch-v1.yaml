@@ -18,4 +18,4 @@ wcs_kws:
 
 psf_type: "ps"
 psf_kws:
-    variation_factor: 0.001
+    variation_factor: 1.0
