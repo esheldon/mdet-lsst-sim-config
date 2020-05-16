@@ -1,4 +1,7 @@
 # same as v1 but now we are saving the min star mag
+# M means just moffat, psf psf with small variations
+# so we can use 1 epoch/band
+
 epochs_per_band: 1
 
 gals_type: "wldeblend"
@@ -14,13 +17,16 @@ wcs_kws:
 
 psf_type: "ps"
 psf_kws:
-  variation_factor: 1.0
+  variation_factor: 0.001
  
+saturate: true
+
 stars: true
 stars_type: "sample"
 stars_kws:
+  subtract_bright: True
   density:
     min_density: 2
     max_density: 100
 
-star_bleeds: true
+star_bleeds: false
