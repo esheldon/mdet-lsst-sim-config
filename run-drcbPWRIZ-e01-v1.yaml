@@ -1,6 +1,6 @@
 epochs_per_band: 1
 
-gal_type: "wldeblend"
+gals_type: "wldeblend"
 
 psf_type: "ps"
 psf_kws:
