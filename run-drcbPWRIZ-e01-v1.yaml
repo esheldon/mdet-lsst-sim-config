@@ -1,0 +1,18 @@
+epochs_per_band: 1
+
+gal_type: "wldeblend"
+
+psf_type: "ps"
+psf_kws:
+  variation_factor: 1.0
+
+wcs_kws:
+  position_angle_range: [0, 360]
+  dither_range: [-0.5, 0.5]
+  scale_frac_std: 0.01
+  shear_std: 0.01
+
+cosmic_rays: True
+bad_columns: True
+
+saturate: True
