@@ -16,4 +16,3 @@ cosmic_rays: true
 bad_columns: true
 
 saturate: true
-trim_stamps: false
