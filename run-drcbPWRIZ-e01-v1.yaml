@@ -12,7 +12,8 @@ wcs_kws:
   scale_frac_std: 0.01
   shear_std: 0.01
 
-cosmic_rays: True
-bad_columns: True
+cosmic_rays: true
+bad_columns: true
 
-saturate: True
+saturate: true
+trim_stamps: false
