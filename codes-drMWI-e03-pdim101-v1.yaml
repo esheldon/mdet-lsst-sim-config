@@ -1,0 +1,18 @@
+# should use the https versions in case the ssh agent
+# is not forwarded
+
+descwl-shear-sims:
+    url: https://github.com/LSSTDESC/descwl-shear-sims.git
+    hash: 93c82488babbbb6def9e18875357db5dace39e9f
+
+descwl_coadd:
+    url: https://github.com/LSSTDESC/descwl_coadd.git
+    hash: 6f89a8aa4a5484a1573e1c389d50974c6a9099e3
+
+metadetect:
+    url: https://github.com/esheldon/metadetect.git
+    hash: a63236f063fe2979c7fbf89563080e6fe66895fb
+
+mdet-lsst-sim:
+    url: https://github.com/esheldon/mdet-lsst-sim.git
+    hash: 8b05b37c8b178259b245f1a9b46a1002f04d9dfc
