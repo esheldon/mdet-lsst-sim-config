@@ -1,0 +1,5 @@
+bands: ["i"]
+epochs_per_band: 3
+psf_dim: 101
+gals_type: "wldeblend"
+psf_type: "moffat"
