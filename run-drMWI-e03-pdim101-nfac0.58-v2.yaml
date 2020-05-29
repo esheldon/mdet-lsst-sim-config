@@ -1,0 +1,12 @@
+bands: ["i"]
+epochs_per_band: 3
+psf_dim: 101
+gals_type: "wldeblend"
+gals_kws:
+    # 1/sqrt(3)
+    noise_factor: 0.58
+psf_type: "moffat"
+
+wcs_kws:
+  dither_range: [-0.5, 0.5]
+  position_angle_range: [0, 360]
