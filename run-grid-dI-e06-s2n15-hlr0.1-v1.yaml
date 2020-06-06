@@ -1,0 +1,13 @@
+bands: ["i"]
+epochs_per_band: 6
+
+wcs_kws:
+    dither_range: [-0.5, 0.5]
+ 
+gals_kws:
+    mag: 25.0
+    half_light_radius: 0.1
+
+layout_type: "grid"
+layout_kws:
+    dim: 6
