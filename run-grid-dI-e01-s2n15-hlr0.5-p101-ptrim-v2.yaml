@@ -1,0 +1,15 @@
+# using old descwl coadd and mdet-lsst-sim adapted for it
+bands: ["i"]
+epochs_per_band: 1
+
+psf_dim: 101
+
+wcs_kws:
+    dither_range: [-0.5, 0.5]
+ 
+gals_kws:
+    mag: 24.5
+
+layout_type: "grid"
+layout_kws:
+    dim: 6

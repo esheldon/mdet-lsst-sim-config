@@ -1,0 +1,12 @@
+# using descwl-shear-sims but everything else same
+bands: ["i"]
+epochs_per_band: 1
+
+wcs_kws:
+    dither_range: [-0.5, 0.5]
+ 
+gal_kws:
+    mag: 19.2
+
+grid_gals: True
+ngals: 6
