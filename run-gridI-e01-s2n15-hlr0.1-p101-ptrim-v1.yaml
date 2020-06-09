@@ -1,0 +1,12 @@
+bands: ["i"]
+epochs_per_band: 1
+
+psf_dim: 101
+
+gals_kws:
+    mag: 25.0
+    half_light_radius: 0.1
+
+layout_type: "grid"
+layout_kws:
+    dim: 6
