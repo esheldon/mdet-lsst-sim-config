@@ -1,0 +1,4 @@
+sim_type: "trivial"
+noise: 0.00455
+dither: True
+rotate: True
