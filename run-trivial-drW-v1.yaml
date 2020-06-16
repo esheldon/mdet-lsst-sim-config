@@ -1,0 +1,6 @@
+sim:
+    type: "trivial"
+    epochs_per_band: 1
+    dither: True
+    rotate: True
+    gal_type: "wldeblend"
