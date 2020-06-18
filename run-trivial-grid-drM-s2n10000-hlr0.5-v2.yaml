@@ -1,0 +1,6 @@
+# ran this one Convolving objects before Adding
+sim:
+    type: "trivial"
+    dither: True
+    rotate: True
+    psf_type: "moffat"
