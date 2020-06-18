@@ -1,0 +1,8 @@
+sim:
+    type: "trivial"
+    epochs_per_band: 1
+    dither: True
+    rotate: True
+    gal_type: "wldeblend"
+    psf_type: "moffat"
+    noise_factor: 0.58
