@@ -1,0 +1,10 @@
+sim:
+    type: "lsst"
+    gal_config:
+        mag: 24.4
+
+mdet:
+    metacal:
+        # use_noise_image: False
+        fixnoise: False
+        psf: "fitgauss"
