@@ -1,0 +1,7 @@
+sim:
+    type: "lsst"
+    dither: False
+    rotate: False
+    gal_config:
+        # s2n ~ 100
+        mag: 22.0
