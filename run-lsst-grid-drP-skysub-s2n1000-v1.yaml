@@ -1,0 +1,11 @@
+sim:
+    type: "lsst"
+    dither: True
+    rotate: True
+    psf_type: "ps"
+    gal_config:
+        # s2n ~ 1000
+        mag: 19.5
+
+mdet:
+    subtract_sky: True
