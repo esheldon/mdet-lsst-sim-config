@@ -14,3 +14,4 @@ sim:
 mdet:
     detect:
         thresh: 5
+    subtract_sky: True
