@@ -1,0 +1,16 @@
+sim:
+    type: "lsst"
+    dither: True
+    rotate: True
+    psf_type: "ps"
+    stars: True
+    star_bleeds: True
+    gal_config:
+        # s2n ~ 15
+        # mag: 24.4
+        # s2n ~ 20
+        # mag: 23.75
+        # s2n ~ 100
+        # mag: 22.0
+        # mag: 19.5
+        s2n ~ 1000
