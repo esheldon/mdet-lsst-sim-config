@@ -1,0 +1,15 @@
+sim:
+    type: "lsst"
+
+    coadd_dim: 351
+    se_dim: 351
+
+    epochs_per_band: 1
+    gal_type: "wldeblend"
+    psf_type: "ps"
+    noise_factor: 0.58
+    cosmic_rays: True
+    bad_columns: True
+
+coadd:
+    nowarp: True
