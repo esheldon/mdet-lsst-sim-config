@@ -1,0 +1,17 @@
+sim:
+    type: "lsst"
+
+    coadd_dim: 351
+    se_dim: 351
+
+    epochs_per_band: 1
+
+    layout: "grid"
+    gal_type: "exp"
+    gal_config:
+        mag: 23.75
+
+    psf_type: "moffat"
+
+coadd:
+    nowarp: True
