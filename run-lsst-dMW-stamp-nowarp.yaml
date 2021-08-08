@@ -1,0 +1,15 @@
+sim:
+    type: "lsst"
+
+    coadd_dim: 351
+    se_dim: 351
+
+    epochs_per_band: 1
+    dither: True
+
+    gal_type: "wldeblend"
+    psf_type: "moffat"
+    noise_factor: 0.58
+
+coadd:
+    nowarp: True
