@@ -11,7 +11,7 @@ sim:
     psf_type: "moffat"
     stars: True
     noise_factor: 0.58
-    sky_n_sigma: 3
+    sky_n_sigma: -3
 
 coadd:
     nowarp: True
