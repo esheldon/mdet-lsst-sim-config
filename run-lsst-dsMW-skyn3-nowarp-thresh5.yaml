@@ -1,0 +1,22 @@
+sim:
+    type: "lsst"
+
+    coadd_dim: 351
+    se_dim: 351
+
+    epochs_per_band: 1
+    dither: True
+
+    gal_type: "wldeblend"
+    psf_type: "moffat"
+    stars: True
+    noise_factor: 0.58
+    sky_n_sigma: 3
+
+coadd:
+    nowarp: True
+
+mdet:
+    detect:
+        thresh: 5
+    subtract_sky: True
