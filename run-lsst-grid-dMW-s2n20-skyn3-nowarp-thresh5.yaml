@@ -1,0 +1,24 @@
+sim:
+    type: "lsst"
+
+    coadd_dim: 351
+    se_dim: 351
+    dither: True
+
+    epochs_per_band: 1
+
+    layout: "grid"
+    gal_type: "exp"
+    gal_config:
+        mag: 23.75
+
+    psf_type: "moffat"
+    sky_n_sigma: -3
+
+coadd:
+    nowarp: True
+
+mdet:
+    detect:
+        thresh: 5
+    subtract_sky: True
