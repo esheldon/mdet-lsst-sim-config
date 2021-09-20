@@ -1,5 +1,0 @@
-sim:
-    type: "trivial"
-    dither: True
-    rotate: True
-    psf_type: "ps"
