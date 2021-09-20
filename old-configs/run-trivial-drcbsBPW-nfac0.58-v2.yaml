@@ -1,0 +1,12 @@
+sim:
+    type: "trivial"
+    epochs_per_band: 1
+    dither: True
+    rotate: True
+    gal_type: "wldeblend"
+    psf_type: "ps"
+    noise_factor: 0.58
+    stars: True
+    star_bleeds: True
+    cosmic_rays: True
+    bad_columns: True

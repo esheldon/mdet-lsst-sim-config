@@ -1,0 +1,7 @@
+sim:
+    type: "trivial"
+    noise: 6.8e-06
+    epochs_per_band: 1
+    layout: "random"
+    dither: True
+    rotate: True
