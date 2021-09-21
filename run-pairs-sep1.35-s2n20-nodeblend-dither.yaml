@@ -1,0 +1,16 @@
+sim:
+    layout: pair
+    dither: true
+    sep: 1.35
+    coadd_dim: 100
+    se_dim: 100
+    gal_type: exp
+    gal_config:
+        mag: 23.8
+
+mdet:
+    deblend: false
+    stamp_size: 48
+
+coadd:
+    nowarp: true
