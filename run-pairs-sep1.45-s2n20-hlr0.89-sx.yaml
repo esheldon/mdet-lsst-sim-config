@@ -1,0 +1,14 @@
+sim:
+    layout: pair
+    sep: 1.45
+    coadd_dim: 100
+    gal_type: exp
+    gal_config:
+        hlr: 0.89
+        mag: 23.8
+
+mdet:
+    use_sx: true
+
+coadd:
+    nowarp: true
