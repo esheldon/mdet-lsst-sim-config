@@ -10,6 +10,8 @@ mdet:
     meas_type: admom
     deblend: true
     stamp_size: 48
+    detect:
+        thresh: 10
 
 coadd:
     nowarp: true
