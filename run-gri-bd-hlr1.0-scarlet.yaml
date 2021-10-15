@@ -1,0 +1,31 @@
+# used by mdet-lsst-sim batch scripts
+do_photometry: true
+
+sim:
+    bands: [g, r, i]
+    layout: random
+
+    gal_type: fixed
+    gal_config:
+        hlr: 1.0
+        # gap gives s/n 30 for these settings
+        mag: 23.8
+        morph: bd
+
+    psf_type: gauss
+    coadd_dim: 301
+    se_dim: 301
+
+mdet:
+    meas_type: gap
+
+    deblend: true
+    deblender: scarlet
+
+    stamp_size: 48
+
+    detect:
+        thresh: 5
+
+coadd:
+    nowarp: true
