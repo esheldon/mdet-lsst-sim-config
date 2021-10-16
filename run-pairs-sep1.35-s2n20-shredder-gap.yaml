@@ -1,0 +1,19 @@
+sim:
+    layout: pair
+    sep: 1.35
+    coadd_dim: 100
+    gal_type: fixed
+    gal_config:
+        morph: exp
+        mag: 23.8
+
+mdet:
+    meas_type: gap
+    deblend: true
+    deblender: shredder
+    stamp_size: 48
+    detect:
+        thresh: 10
+
+coadd:
+    nowarp: true
