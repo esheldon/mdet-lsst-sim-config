@@ -1,0 +1,23 @@
+sim:
+    bands: [g, r, i]
+    gal_type: wldeblend
+    psf_type: gauss
+    # coadd_dim: 301
+    # se_dim: 301
+    coadd_dim: 200
+    se_dim: 200
+    buff: 10
+
+mdet:
+    meas_type: gap
+    deblend: true
+    # deblender: shredder
+    deblender: scarlet
+    shredder_config:
+        psf_ngauss: 1
+    stamp_size: 48
+    detect:
+        thresh: 5
+
+coadd:
+    nowarp: true
