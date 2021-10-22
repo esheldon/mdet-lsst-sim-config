@@ -1,0 +1,17 @@
+sim:
+    layout: pair
+    sep: 1.35
+    coadd_dim: 100
+    se_dim: 100
+    gal_type: fixed
+    gal_config:
+        mag: 23.8
+
+mdet:
+    meas_type: pgauss
+    deblend: false
+    stamp_size: 48
+    find_cen: True
+
+coadd:
+    nowarp: true
