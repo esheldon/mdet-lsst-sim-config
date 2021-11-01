@@ -1,0 +1,17 @@
+sim:
+    layout: pair
+    sep: 1.35
+    coadd_dim: 100
+    gal_type: exp
+    gal_config:
+        mag: 23.8
+
+mdet:
+    meas_type: pgauss
+    deblend: true
+    deblender: scarlet
+
+    stamp_size: 48
+
+coadd:
+    nowarp: true
