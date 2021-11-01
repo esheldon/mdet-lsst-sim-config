@@ -2,10 +2,10 @@ sim:
     bands: [g, r, i]
     gal_type: wldeblend
     psf_type: gauss
-    # coadd_dim: 301
-    # se_dim: 301
-    coadd_dim: 200
-    se_dim: 200
+    coadd_dim: 301
+    se_dim: 301
+    # coadd_dim: 200
+    # se_dim: 200
     buff: 10
 
 mdet:
