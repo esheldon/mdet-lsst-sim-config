@@ -5,6 +5,8 @@ sim:
     gal_type: wldeblend
     # bring noise down to approximately 3 band level
     noise_factor: 0.58
+    coadd_dim: 250
+    se_dim: 250
 
 coadd:
     nowarp: true
