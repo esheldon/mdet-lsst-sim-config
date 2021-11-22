@@ -1,0 +1,20 @@
+# default coadd_dim is now 250
+# we trim 50 as we will do for real data
+
+mls:
+    shear: 0.02
+    randomize_shear: true
+
+sim:
+    gal_type: wldeblend
+    # bring noise down to approximately 3 band level
+    noise_factor: 0.58
+    coadd_dim: 250
+    se_dim: 250
+
+coadd:
+    nowarp: true
+
+mdet:
+    meas_type: wmom
+    trim_pixels: 50
