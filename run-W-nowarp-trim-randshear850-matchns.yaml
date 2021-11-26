@@ -5,9 +5,6 @@ mls:
     shear: 0.02
     randomize_shear: true
 
-    cell_size: 250
-    cell_buff: 50
-
 sim:
     gal_type: wldeblend
 
