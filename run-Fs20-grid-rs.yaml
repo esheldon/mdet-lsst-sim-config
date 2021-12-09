@@ -1,0 +1,27 @@
+mls:
+    shear: 0.02
+    randomize_shear: true
+
+sim:
+    gal_type: fixed
+    layout: grid
+
+    # s/n ~ 50
+    gal_config:
+        mag: 22.75
+
+    stars: true
+    star_config:
+        density: 20
+
+    coadd_dim: 300
+    se_dim: 300
+
+    # no objects drawn here
+    buff: 50
+
+coadd:
+    nowarp: true
+
+mdet:
+    meas_type: wmom
