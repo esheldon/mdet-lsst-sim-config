@@ -5,7 +5,7 @@ mls:
 
 sim:
     layout: grid
-    psf_type: gauss
+    psf_type: ps
 
     # s/n ~ 17
     gal_type: fixed
