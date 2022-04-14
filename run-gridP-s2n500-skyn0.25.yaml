@@ -1,0 +1,25 @@
+# put in a sky but don't correct it
+mls:
+    shear: 0.02
+    randomize_shear: false
+
+sim:
+    layout: grid
+    psf_type: ps
+
+    # s/n ~ 500
+    gal_type: fixed
+    gal_config:
+        mag: 20.13
+
+    coadd_dim: 401
+    buff: 50
+
+    sky_n_sigma: -0.25
+
+coadd:
+    nowarp: true
+
+mdet:
+    meas_type: pgauss
+    subtract_sky: False

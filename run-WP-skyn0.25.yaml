@@ -1,0 +1,23 @@
+# put in a sky but don't correct it
+mls:
+    shear: 0.02
+    randomize_shear: false
+
+sim:
+    gal_type: wldeblend
+    psf_type: ps
+
+    # bring noise down to approximately 3 band level
+    noise_factor: 0.58
+
+    coadd_dim: 250
+    buff: 50
+
+    sky_n_sigma: -0.25
+
+coadd:
+    nowarp: true
+
+mdet:
+    meas_type: pgauss
+    subtract_sky: False
