@@ -1,0 +1,28 @@
+mls:
+    shear: 0.02
+    randomize_shear: false
+
+sim:
+    dither: false
+    rotate: false
+    gal_type: wldeblend
+
+    psf_type: ps
+    # 1 / sqrt(100)
+    psf_variation_factor: 0.1
+
+    cosmic_rays: false
+    bad_columns: false
+
+    coadd_dim: 350
+
+    # no objects drawn here
+    buff: 50
+
+    noise_factor: 0.58
+
+mdet:
+    meas_type: wmom
+
+coadd:
+    nowarp: true
