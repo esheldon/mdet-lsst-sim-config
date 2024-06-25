@@ -1,0 +1,23 @@
+sim:
+    bands: [i]
+
+    dither: true
+    rotate: true
+    gal_type: wldeblend
+
+    epochs_per_band: 10
+
+    psf_type: ps
+    psf_variation_factor: 0.1
+
+    cosmic_rays: true
+    bad_columns: true
+
+    stars: false
+    # star_bleeds: true
+
+    # we will do 5 cells
+    coadd_dim: 350
+
+    # no objects drawn here
+    buff: 50
