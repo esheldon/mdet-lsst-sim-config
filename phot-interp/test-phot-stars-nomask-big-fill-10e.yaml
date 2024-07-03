@@ -1,0 +1,28 @@
+mdet:
+    mask_bright: False
+
+coadd:
+    coadder: "make_coadd_fill"
+
+sim:
+    bands: [i]
+
+    dither: true
+    rotate: true
+    gal_type: wldeblend
+
+    epochs_per_band: 10
+
+    psf_type: ps
+    psf_variation_factor: 0.1
+
+    cosmic_rays: true
+    bad_columns: true
+
+    stars: true
+    star_bleeds: true
+
+    coadd_dim: 1050
+
+    # no objects drawn here
+    buff: 50
