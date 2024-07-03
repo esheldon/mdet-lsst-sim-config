@@ -1,3 +1,5 @@
+do_photometry: true
+
 coadd:
     interpolator: "gp"
 

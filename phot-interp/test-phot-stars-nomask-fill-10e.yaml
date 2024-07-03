@@ -1,3 +1,9 @@
+do_photometry: true
+
+mls:
+    shear: 0.02
+    randomize_shear: false
+
 mdet:
     mask_bright: False
 
