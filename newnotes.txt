@@ -1,0 +1,9 @@
+run-drcbWsBP-nfac0.58-e10-fill.yaml
+    - new fill method for coadding, still using CT interp
+    - emulate 10 epochs (year 1) so no change to psf variation factor
+    - noise factor 0.58 to get similar noise for r+i+z
+
+    mdet-lsst-sim ca2f5a52e63ba07466cd5725446bf3844f294c35
+    metadetect c3ea1cc10b72db49e587d088102cafbdecd67dd0
+    descwl-shear-sims df18e6cbb98e1866a7c6fb149184f0dd49b771eb
+    descwl_coadd 6edc6d9dd779484451ea8098fa173b09a781a7b4
