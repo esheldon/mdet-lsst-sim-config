@@ -1,5 +1,15 @@
 do_photometry: true
 
+mls:
+    shear: 0.02
+    randomize_shear: false
+
+mdet:
+    mask_bright: False
+
+coadd:
+    coadder: "make_coadd_fill"
+
 sim:
     bands: [i]
 
@@ -7,14 +17,16 @@ sim:
     rotate: true
     gal_type: wldeblend
 
+    epochs_per_band: 10
+
     psf_type: ps
     psf_variation_factor: 0.1
 
     cosmic_rays: true
     bad_columns: true
 
-    stars: false
-    # star_bleeds: true
+    stars: true
+    star_bleeds: true
 
     # we will do 5 cells
     coadd_dim: 350

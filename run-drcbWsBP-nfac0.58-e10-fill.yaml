@@ -1,7 +1,9 @@
-do_photometry: true
+mls:
+    shear: 0.02
+    randomize_shear: false
 
-mdet:
-    mask_bright: False
+coadd:
+    coadder: "make_coadd_fill"
 
 sim:
     bands: [i]
@@ -13,7 +15,11 @@ sim:
     epochs_per_band: 10
 
     psf_type: ps
-    psf_variation_factor: 0.1
+    # simulating year 1, so psf variation set to 1.0
+    psf_variation_factor: 1.0
+
+    # to emmulate r+i+z
+    noise_factor: 0.58
 
     cosmic_rays: true
     bad_columns: true
@@ -21,8 +27,6 @@ sim:
     stars: true
     star_bleeds: true
 
-    # we will do 5 cells
     coadd_dim: 350
 
-    # no objects drawn here
     buff: 50

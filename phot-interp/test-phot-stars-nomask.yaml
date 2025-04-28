@@ -1,3 +1,5 @@
+do_photometry: true
+
 mdet:
     mask_bright: False
 
