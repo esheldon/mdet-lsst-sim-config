@@ -1,0 +1,31 @@
+mls:
+    shear: 0.02
+    randomize_shear: false
+    columns: [
+        'wmom_flags',
+        'wmom_s2n',
+        'wmom_g',
+        # will extract g_err from averaging diag
+        'wmom_g_cov',
+        'wmom_T_ratio',
+        'wmom_T',
+    ]
+
+sim:
+    gal_type: "wldeblend"
+
+    # bring noise down to approximately 3 band level
+    noise_factor: 0.58
+
+    # we will do 5 cells
+    coadd_dim: 350
+    se_dim: 350
+
+    # no objects drawn here
+    buff: 50
+
+coadd:
+    nowarp: true
+
+mdet:
+    meas_type: "wmom"
