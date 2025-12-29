@@ -1,0 +1,20 @@
+mls:
+    shear: 0.02
+    randomize_shear: false
+
+sim:
+
+    coadd_dim: 350
+    buff: 50
+
+    bands: ["g", "r", "i"]
+    gal_type: wldeblend
+    psf_type: moffat
+
+mdet:
+    deblender: "scarlet"
+    metacal:
+        reconv_type: "fitgauss"
+
+coadd:
+    nowarp: true
