@@ -13,7 +13,7 @@ sim:
 
     # factor of 3 to get to expected 0.03 per visit
     # 1 / sqrt(15) for year 1 ish
-    psf_variation_factor: 0.78
+    psf_variation_factor: 0.77
 
     psf_fwhm: 0.8
 
