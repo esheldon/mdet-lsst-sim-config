@@ -13,11 +13,8 @@ sim:
     psf_pars:
         nepoch: 15
 
-    # factor of 3 to get to expected 0.03 per visit
-    # 1 / sqrt(15) for year 1 ish
-    psf_variation_factor: 0.77
-
-    psf_fwhm: 1.0
+    # "no_pixel" is required for shapelet
+    draw_method: "no_pixel"
 
 mdet:
     deblender: "scarlet"
