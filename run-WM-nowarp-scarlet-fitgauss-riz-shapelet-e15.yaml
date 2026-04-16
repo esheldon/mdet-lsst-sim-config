@@ -12,6 +12,7 @@ sim:
     psf_type: "shapelet"
     psf_pars:
         nepoch: 15
+        max_nongauss_frac: 0.005
 
     # "no_pixel" is required for shapelet
     draw_method: "no_pixel"
