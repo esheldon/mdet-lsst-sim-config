@@ -1,0 +1,27 @@
+mls:
+    shear: 0.02
+    randomize_shear: false
+
+sim:
+
+    coadd_dim: 350
+    buff: 50
+
+    bands: ["r", "i", "z"]
+    gal_type: wldeblend
+    psf_type: "gmix"
+    psf_pars:
+        nepoch: 15
+        max_nongauss_frac: 0.005
+        threshold: 0.0
+
+    # "no_pixel" is required for gmix
+    draw_method: "no_pixel"
+
+mdet:
+    deblender: "scarlet"
+    metacal:
+        reconv_type: "fitgauss"
+
+coadd:
+    nowarp: true
