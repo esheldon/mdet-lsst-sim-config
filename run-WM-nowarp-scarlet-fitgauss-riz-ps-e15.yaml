@@ -1,0 +1,31 @@
+mls:
+    shear: 0.02
+    randomize_shear: false
+
+sim:
+
+    coadd_dim: 350
+    buff: 50
+
+    bands: ["r", "i", "z"]
+
+    gal:
+        type: "wldeblend"
+
+    psf:
+        type: "coadd_ps"
+        nepoch: 15
+        dim: 51
+        fwhm: 0.8
+        # this gets us to 0.03 per epoch
+        variation_factor: 3
+
+    draw_method: "auto"
+
+mdet:
+    deblender: "scarlet"
+    metacal:
+        reconv_type: "fitgauss"
+
+coadd:
+    nowarp: true
