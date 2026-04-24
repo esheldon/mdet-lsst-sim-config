@@ -8,9 +8,13 @@ sim:
     buff: 50
 
     bands: ["r", "i", "z"]
-    gal_type: wldeblend
-    psf_type: "gmix"
-    psf_pars:
+
+    gal:
+        type: "wldeblend"
+
+    psf:
+        type: "gmix"
+        dim: 15
         nepoch: 15
         max_nongauss_frac: 0.005
 
