@@ -14,7 +14,7 @@ sim:
 
     psf:
         type: "gmix"
-        dim: 15
+        dim: 51
         nepoch: 15
         max_nongauss_frac: 0.005
 
