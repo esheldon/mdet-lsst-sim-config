@@ -19,6 +19,7 @@ sim:
         dim: 51
         nepoch: 15
         max_nongauss_frac: 0.005
+        fwhm_fac: 1.0
 
     # "no_pixel" is required for gmix
     draw_method: "no_pixel"
