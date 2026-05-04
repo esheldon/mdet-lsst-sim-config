@@ -14,11 +14,11 @@ sim:
 
     psf:
         type: "gmix"
-        model: "em5"
+        model: "turb"
         dim: 51
         nepoch: 15
         max_nongauss_frac: 0.005
-        fwhm_fac: 0.84
+        fwhm_fac: 1.0
 
     # "no_pixel" is required for gmix
     draw_method: "no_pixel"
